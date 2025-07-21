@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import Home from './components/Home/Home'
 import Skills from './components/skills/Skills'
-import Projects from './components/myprojects/projects'
+import Projects from './components/myprojects/Projects'
 
 function App() {
 
