@@ -15,3 +15,77 @@ body{
   
   
 }
+/* .blob{
+  position: relative;
+  left: 145%;
+  bottom: 282px;
+  transform: translateX(-50%);
+} */
+@media (min-width:360px) and (max-width:460px) {
+  .pic{
+   position: relative;
+   top:170px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 40%;
+ 
+    
+  }
+  .blob{
+    position: relative;
+    bottom:300px;
+    left: 100px;
+  }
+  .button{
+    position: relative;
+    bottom: 140px;
+    left: 40%;
+    transform: translateX(-50%);
+  }
+  .social{
+    position: relative;
+    bottom: 10px;
+  }
+  
+  
+  
+}
+
+@media (min-width:412px) {
+  
+  .blob{
+    position: relative;
+    left:120px;
+  }
+  .pic{
+    position: relative;
+    top: 300px;
+
+  }
+  .social{
+    position: relative;
+    top: 200px;
+  }
+  .button{
+    top: -5px;
+  }
+}
+@media (min-width:430px) {
+  
+  .blob{
+    position: relative;
+    left:120px;
+  }
+  .pic{
+    position: relative;
+    top: 220px;
+  }
+  .social{
+    position: relative;
+    top: 100px;
+  }
+  .button{
+    top: -50px;
+  }
+}
+ 

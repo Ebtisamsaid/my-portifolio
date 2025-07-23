@@ -10,7 +10,7 @@ function App() {
   return (
     <>
 
-  <div className=" my-3 overflow-hidden bg-white w-[70%] h-[70%] p-4 rounded-lg shadow-md absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]">
+  <div className=" my-3 overflow-hidden bg-white w-[70%] h-[75%] p-4 rounded-lg shadow-md absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]">
     <Home />
  
   </div>
