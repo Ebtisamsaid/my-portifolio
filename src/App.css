@@ -21,7 +21,7 @@ body{
   bottom: 282px;
   transform: translateX(-50%);
 } */
-@media (min-width:360px) and (max-width:460px) {
+/* @media (min-width:360px) and (max-width:460px) {
   .pic{
    position: relative;
    top:170px;
@@ -87,5 +87,27 @@ body{
   .button{
     top: -50px;
   }
-}
- 
+} */
+ .blob{
+  position: relative;
+  left: 50%;
+
+ }
+ .pic{
+  position: relative;
+  left: 80%;
+  top: 70px;
+  width: 20%;
+ }
+ .button{
+  position: relative;
+  top: -1050px;
+  left: 100px;
+  z-index: 44;
+ }
+ .social{
+  position: relative;
+top: -900px;
+left: -200px;
+justify-content: center;
+ }
