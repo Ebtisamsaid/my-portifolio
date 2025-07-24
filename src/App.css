@@ -15,25 +15,89 @@ body{
   
   
 }
+
+@media (width:1440px) {
+  .blob{
+    position:absolute;
+    top: -40%;
+  }
+  .button{
+    transform: translateX(-20%);
+  }
+  
+}
+
+@media (min-width:1300px) {
+  .blob{
+    position:absolute;
+    top:-40% ;
+  }
+  .button{
+    width: 200px;
+    transform: translateX(-45%);
+  }
+  .pic{
+    position: absolute;
+  }
+  .title1{
+    font-size: 50px;
+  }
+  .title2{
+    font-size: 40px;
+  }
+  .social{
+    transform: translateY(15%);
+  }
+  
+}
+
+@media (min-width:1280px) {
+  .blob{
+    position:absolute;
+    top: -40%;
+    
+  }
+  .pic{
+    position: absolute;
+    left:80%;
+  }
+  .title1{
+    font-size:50px;
+  }
+  .title2{
+    font-size: 40px;
+  }
+  .button{
+    position: absolute;
+    transform: translateX(-50%);
+  }
+  .social{
+    transform: translateY(20%);
+  }
+  
+}
+body{
+  overflow-x:hidden
+}
 /* .blob{
   position: relative;
   left: 145%;
   bottom: 282px;
   transform: translateX(-50%);
 } */
-/* @media (min-width:360px) and (max-width:460px) {
+/* @media (min-width:370px) and (max-width:460px) {
   .pic{
    position: relative;
    top:170px;
    left: 50%;
    transform: translateX(-50%);
-   width: 40%;
+   width: 50%;
  
     
   }
   .blob{
     position: relative;
-    bottom:300px;
+    bottom:320px;
     left: 100px;
   }
   .button{
@@ -87,7 +151,7 @@ body{
   .button{
     top: -50px;
   }
-} */
+}
  .blob{
   position: relative;
   left: 50%;
@@ -110,4 +174,4 @@ body{
 top: -900px;
 left: -200px;
 justify-content: center;
- }
+ } */

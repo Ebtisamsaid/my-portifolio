@@ -3,10 +3,10 @@ import {Link} from "react-scroll"
 
 function Navbar() {
   return <>
-<div className=' container relative z-50'>
-<div className='flex justify-between'>
+<div className=' container mx-auto relative z-50'>
+<div className='flex  justify-between'>
     <div>
-    <h1 className='text-3xl font-semibold hire'> <strong className='text-amber-700 text-4xl hire'>dev </strong >Ebtisam</h1>
+    <h1 className='text-3xl font-semibold hire'> <strong className='text-amber-700 text-4xl hire '>dev </strong >Ebtisam</h1>
     </div>
     <div className='hidden md:flex'> 
         <ul className='list-none flex justify-center items-center'>
