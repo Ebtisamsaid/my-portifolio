@@ -13,7 +13,7 @@ function Projects() {
                 <img src={nest} alt="nestjspicture" />
             </a>
         </div>
-        <a target='_blank' href="https://github.com/Ebtisamsaid/e-commerce-node.js" className='text-l font-medium'>
+        <a target='_blank' href="https://github.com/Ebtisamsaid/e-commerce-node.js" className='projtext text-l font-medium'>
             E-commerce Nest.js Backend
         </a>
     </div>
@@ -24,7 +24,7 @@ function Projects() {
                 <img   src={express} alt="expresspicture" />
             </a>
         </div>
-        <a target='_blank' href="https://github.com/Ebtisamsaid/job-app" className='text-l font-medium'>
+        <a target='_blank' href="https://github.com/Ebtisamsaid/job-app" className=' projtext text-l font-medium'>
             Job app Express.js Backend
         </a>
     </div>
@@ -35,7 +35,7 @@ function Projects() {
                 <img src={express} alt="expresspicture" />
             </a>
         </div>
-        <a target='_blank' href="https://github.com/Ebtisamsaid/social-app" className='text-l font-medium '>
+        <a target='_blank' href="https://github.com/Ebtisamsaid/social-app" className='projtext text-l font-medium '>
             Social app Backend
         </a>
     </div>
@@ -45,7 +45,7 @@ function Projects() {
                 <img src={react} alt="expresspicture" />
             </a>
         </div>
-        <a target='_blank' href="https://github.com/Ebtisamsaid/social-app" className='[text-l font-medium '>
+        <a target='_blank' href="https://github.com/Ebtisamsaid/social-app" className='projtext text-l font-medium '>
           E-commerce Reactjs
         </a>
     </div>

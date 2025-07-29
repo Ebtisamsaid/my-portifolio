@@ -23,9 +23,8 @@ body{
     top: -40%;
   }
   .button{
-    position: relative;
-    left: 40%;
-    transform: translateX(20px);
+position: relative;
+top: 420px;
   }
   .proj{
 height: auto;
@@ -148,6 +147,107 @@ height: auto;
   left: 10%;
   top: 220px;
   }
+}
+@media (min-width:3000px) and (max-width:6000px) {
+  .box{
+    position: relative;
+    top: 200px;
+    left: -25%;
+  }
+  .pic{
+    width: 800px;
+    height: 800px;
+  }
+  .logo{
+    font-size: 100px;
+  }
+  .logo2{
+    font-size: 80px;
+  }
+  .div{
+    position: relative;
+    right:70% ;
+  }
+  .menu{
+    font-size: 100px;
+    margin-left: 80px;
+  }
+  .menu1{
+    position: relative;
+    left: 100%;
+    
+ 
+  }
+  .title1{
+    font-size: 150px;
+  }
+  .title2{
+    font-size: 100px;
+  }
+  .button{
+    position: relative;
+    top: 1000px;
+    left: 800px;
+    width:20%;
+    height: 200px;
+    
+  }
+  .social{
+    
+    position: relative;
+    top: 1200px;
+  }
+  .text{
+    font-size: 80px;
+  }
+  .home{
+    height:2000px ;
+    width: 270%;
+    margin: auto;
+
+}
+.skilltitle{
+  font-size: 150px;
+  transform: translateX(50%);
+}
+.skills{
+  height:auto;
+    width: 270%;
+    margin: auto;
+    transform: translateY(150px);
+    
+
+}
+.projtiltle{
+  position: relative;
+  top: 100px;
+left: 120%;
+  font-size: 150px;
+
+}
+.projects{
+  transform: translateY(100%);
+}
+.projtext{
+  font-size: 50px;
+  font-weight: bold;
+}
+.proj{
+  height:2000px ;
+    width: 270%;
+    margin: auto;
+    position: relative;
+    top: -900px;
+}
+.icon{
+  width: 200px;
+  height: 200px;
+}
+.square{
+  width: 400px;
+  height: 400px;
+}
+  
 }
 
 body{
