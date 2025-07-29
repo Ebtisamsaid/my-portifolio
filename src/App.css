@@ -16,18 +16,37 @@ body{
   
 }
 
-@media (width:1440px) {
+
+@media (min-width:1440px) {
   .blob{
     position:absolute;
     top: -40%;
   }
   .button{
-    transform: translateX(-20%);
+    position: relative;
+    left: 40%;
+    transform: translateX(20px);
+  }
+  .proj{
+height: auto;
+
+ 
+  }
+  .projects{
+    display: flex;
   }
   
 }
 
 @media (min-width:1300px) {
+  .projects{
+    display: flex;
+  }
+  .proj{position: relative;
+    transform: translateY(70%);
+    
+     
+      }
   .blob{
     position:absolute;
     top:-40% ;
@@ -45,13 +64,33 @@ body{
   .title2{
     font-size: 40px;
   }
+  .project3{
+ 
+  
+  }
   .social{
     transform: translateY(15%);
   }
   
 }
+@media (width:1024px) and (height:600px) {
+  .proj{
+ transform: translateY(85%);
+    
+  }
+  
+}
 
 @media (min-width:1280px) {
+  .projects{
+    display: flex;
+  }
+ 
+  .proj{position: relative;
+    transform: translateY(60%);
+    
+     
+      }
   .blob{
     position:absolute;
     top: -40%;
@@ -67,111 +106,50 @@ body{
   .title2{
     font-size: 40px;
   }
-  .button{
-    position: absolute;
-    transform: translateX(-50%);
-  }
+
   .social{
-    transform: translateY(20%);
+   
+ position: absolute;
+ top: 83%;
+ left: 40%;
   }
+ 
   
 }
+@media (width:1024px)  {
+  .project4{
+    position: relative;
+    left: -100%;
+    top: 250px;
+  }
+  
+  .proj{
+   position: relative;
+   left: 10%;
+   height: 500px;
+   
+   
+  
+  }
+  .projects{
+    display: flex;
+  }
+ .social{
+  position: relative;
+  top: 300px;
+  left: 400px;
+ }
+
+  .button{
+    width: 150px;
+ display: flex;
+ justify-content: center;
+  position: relative;
+  left: 10%;
+  top: 220px;
+  }
+}
+
 body{
   overflow-x:hidden
 }
-/* .blob{
-  position: relative;
-  left: 145%;
-  bottom: 282px;
-  transform: translateX(-50%);
-} */
-/* @media (min-width:370px) and (max-width:460px) {
-  .pic{
-   position: relative;
-   top:170px;
-   left: 50%;
-   transform: translateX(-50%);
-   width: 50%;
- 
-    
-  }
-  .blob{
-    position: relative;
-    bottom:320px;
-    left: 100px;
-  }
-  .button{
-    position: relative;
-    bottom: 140px;
-    left: 40%;
-    transform: translateX(-50%);
-  }
-  .social{
-    position: relative;
-    bottom: 10px;
-  }
-  
-  
-  
-}
-
-@media (min-width:412px) {
-  
-  .blob{
-    position: relative;
-    left:120px;
-  }
-  .pic{
-    position: relative;
-    top: 300px;
-
-  }
-  .social{
-    position: relative;
-    top: 200px;
-  }
-  .button{
-    top: -5px;
-  }
-}
-@media (min-width:430px) {
-  
-  .blob{
-    position: relative;
-    left:120px;
-  }
-  .pic{
-    position: relative;
-    top: 220px;
-  }
-  .social{
-    position: relative;
-    top: 100px;
-  }
-  .button{
-    top: -50px;
-  }
-}
- .blob{
-  position: relative;
-  left: 50%;
-
- }
- .pic{
-  position: relative;
-  left: 80%;
-  top: 70px;
-  width: 20%;
- }
- .button{
-  position: relative;
-  top: -1050px;
-  left: 100px;
-  z-index: 44;
- }
- .social{
-  position: relative;
-top: -900px;
-left: -200px;
-justify-content: center;
- } */
