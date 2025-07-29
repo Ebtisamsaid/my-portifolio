@@ -16,8 +16,18 @@ body{
   
 }
 
-
+@media (width:2560px) {
+  .proj{
+    height:1500px;
+  }
+  
+}
 @media (min-width:1440px) {
+  .project5{
+    position: relative;
+    left: -95%;
+    top: 250px;
+  }
   .blob{
     position:absolute;
     top: -40%;
@@ -27,9 +37,14 @@ position: relative;
 top: 420px;
   }
   .proj{
-height: auto;
+height: 550px;
+position: relative;
+top: -350px;
 
  
+  }
+  .projtiltle{
+    transform: translateY(50px);
   }
   .projects{
     display: flex;
@@ -63,10 +78,7 @@ height: auto;
   .title2{
     font-size: 40px;
   }
-  .project3{
- 
   
-  }
   .social{
     transform: translateY(15%);
   }
@@ -227,6 +239,8 @@ left: 120%;
 }
 .projects{
   transform: translateY(100%);
+  position: relative;
+  left: 20%;
 }
 .projtext{
   font-size: 50px;
@@ -246,6 +260,43 @@ left: 120%;
 .square{
   width: 400px;
   height: 400px;
+} .project4{
+ 
+ 
+  position: relative;
+  transform: translateX(-200%);
+
+
+}
+.project5{
+ 
+  
+  position: relative;
+top: -100px;
+transform: translateX(-600px);
+
+}
+.project3{
+  position: relative;
+  left: 500px;
+  top: -900px;
+
+}
+.project2{
+  position: relative;
+  
+  top: -900px;
+
+}
+.project1{
+  position: relative;
+  left: -20%;
+  top: -900px;
+  
+}
+.project1pic{
+  width: 100%;
+  
 }
   
 }
