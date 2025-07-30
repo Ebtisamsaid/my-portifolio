@@ -23,7 +23,7 @@ function App() {
  </div>
 </div>
 <div className="container  relative right-[10%] top-[350px] lg:top-[100px] xl:top-[300px] ">
- <h1 className='projtiltle overflow-hidden hire text-4xl 2xl:text-6xl mx-auto font-medium absolute top-[-15%]   2xl:left-[75%] left-[40%] md:top-[-20%] 2xl:top-[-30%] md:left-[50%] lg:top-[30%] lg:left-[50%] xl:left-[50%] xl:top-[-30%] '>My ptojects</h1>
+ <h1 className='projtiltle overflow-hidden hire text-4xl 2xl:text-6xl mx-auto font-medium absolute top-[-12%]   2xl:left-[75%] left-[40%] md:top-[-20%] 2xl:top-[-30%] md:left-[50%] lg:top-[30%] lg:left-[50%] xl:left-[50%] xl:top-[-30%] '>My ptojects</h1>
 <div id='projects' className='proj  mx-auto overflow-hidden bg-white  2xl:w-[150%] xl:w-[100%] xl:h-auto lg:w-[90%] lg:h-auto md:w-[70%]  w-[70%] md:h-auto   p-4 rounded-lg relative top-[-80px] left-[10%] md:top-[-100px] md:left-[10%] lg:top-[200px]  xl:top-[-240px] '>
   <Projects/>
 </div>
